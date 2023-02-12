@@ -1,0 +1,3428 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    AmplifyShaderEditor.dll:
+    - AmplifyShaderFunction
+    Assembly-CSharp.dll:
+    - AudioManager
+    - Bullet
+    - CameraController
+    - Credits
+    - Dog
+    - DontDestroy
+    - FPSViewer
+    - FootStep
+    - Gun
+    - Item
+    - ItemScriptableObject
+    - Loading
+    - Player
+    - PlayerController
+    - PostProcessVolumeReceiver
+    - SpawnDataScriptableObject
+    - Spawner
+    - Stage
+    - StageUI
+    - Synopsis
+    - TextScriptableObject
+    - TitleMenu
+    - UnityEngine.PostProcessing.PostProcessingBehaviour
+    - UnityEngine.PostProcessing.PostProcessingProfile
+    - Zombie
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/Credits.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2104}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4352}
+    - Class: 114
+      Script: {instanceID: 6316}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/DemoScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 3580}
+    - Class: 114
+      Script: {instanceID: 3822}
+    - Class: 114
+      Script: {instanceID: 4516}
+    - Class: 114
+      Script: {instanceID: 4592}
+    - Class: 114
+      Script: {instanceID: 5396}
+    - Class: 114
+      Script: {instanceID: 5958}
+    - Class: 114
+      Script: {instanceID: 5970}
+    - Class: 114
+      Script: {instanceID: 6038}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 114
+      Script: {instanceID: 6162}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 193
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    Assets/Scenes/Ending.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Loading.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2104}
+    - Class: 114
+      Script: {instanceID: 3172}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/Stage.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2104}
+    - Class: 114
+      Script: {instanceID: 2320}
+    - Class: 114
+      Script: {instanceID: 2332}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4058}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/Stage1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2104}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2320}
+    - Class: 114
+      Script: {instanceID: 2332}
+    - Class: 114
+      Script: {instanceID: 2456}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2650}
+    - Class: 114
+      Script: {instanceID: 2804}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3580}
+    - Class: 114
+      Script: {instanceID: 3700}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3822}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4058}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4516}
+    - Class: 114
+      Script: {instanceID: 4592}
+    - Class: 114
+      Script: {instanceID: 4702}
+    - Class: 114
+      Script: {instanceID: 5294}
+    - Class: 114
+      Script: {instanceID: 5396}
+    - Class: 114
+      Script: {instanceID: 5720}
+    - Class: 114
+      Script: {instanceID: 5958}
+    - Class: 114
+      Script: {instanceID: 5970}
+    - Class: 114
+      Script: {instanceID: 6012}
+    - Class: 114
+      Script: {instanceID: 6038}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 114
+      Script: {instanceID: 6162}
+    - Class: 114
+      Script: {instanceID: 6194}
+    - Class: 114
+      Script: {instanceID: 6450}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 117
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 193
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    Assets/Scenes/Synopsis.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2104}
+    - Class: 114
+      Script: {instanceID: 2556}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/TitleMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: -282}
+    - Class: 114
+      Script: {instanceID: 1176}
+    - Class: 114
+      Script: {instanceID: 2038}
+    - Class: 114
+      Script: {instanceID: 2104}
+    - Class: 114
+      Script: {instanceID: 2168}
+    - Class: 114
+      Script: {instanceID: 2204}
+    - Class: 114
+      Script: {instanceID: 2226}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2320}
+    - Class: 114
+      Script: {instanceID: 2332}
+    - Class: 114
+      Script: {instanceID: 2384}
+    - Class: 114
+      Script: {instanceID: 2456}
+    - Class: 114
+      Script: {instanceID: 2474}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2938}
+    - Class: 114
+      Script: {instanceID: 2978}
+    - Class: 114
+      Script: {instanceID: 2980}
+    - Class: 114
+      Script: {instanceID: 3308}
+    - Class: 114
+      Script: {instanceID: 3470}
+    - Class: 114
+      Script: {instanceID: 3580}
+    - Class: 114
+      Script: {instanceID: 3660}
+    - Class: 114
+      Script: {instanceID: 3700}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3822}
+    - Class: 114
+      Script: {instanceID: 3990}
+    - Class: 114
+      Script: {instanceID: 4004}
+    - Class: 114
+      Script: {instanceID: 4058}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4502}
+    - Class: 114
+      Script: {instanceID: 4516}
+    - Class: 114
+      Script: {instanceID: 4592}
+    - Class: 114
+      Script: {instanceID: 4668}
+    - Class: 114
+      Script: {instanceID: 4702}
+    - Class: 114
+      Script: {instanceID: 4930}
+    - Class: 114
+      Script: {instanceID: 5146}
+    - Class: 114
+      Script: {instanceID: 5294}
+    - Class: 114
+      Script: {instanceID: 5344}
+    - Class: 114
+      Script: {instanceID: 5396}
+    - Class: 114
+      Script: {instanceID: 5720}
+    - Class: 114
+      Script: {instanceID: 5958}
+    - Class: 114
+      Script: {instanceID: 5970}
+    - Class: 114
+      Script: {instanceID: 6012}
+    - Class: 114
+      Script: {instanceID: 6038}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 114
+      Script: {instanceID: 6162}
+    - Class: 114
+      Script: {instanceID: 6346}
+    - Class: 114
+      Script: {instanceID: 6450}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 117
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 182
+      Script: {instanceID: 0}
+    - Class: 193
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 319
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: dbfadccfda72fcc8598b2d812f77a8ca
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LinearDepthNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FunctionSwitchByPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: f2e7948f9e13f0c9c36d7626fe8b679f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ComponentMaskNode
+  - hash:
+      serializedVersion: 2
+      Hash: d9abb5b5e42b79b9919478cb4fa28f61
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: GetLocalVarNode
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: 
+    className: ResetValues
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: edd541612a0ff4f428f64521ba68b985
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TextureCoordinatesNode
+  - hash:
+      serializedVersion: 2
+      Hash: 4cc533e8c139e6312ed9a954bc27ccdb
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TriplanarNode
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: e4c6ddbf7b1b9bd74aa32b1348585123
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCGrayscale
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PostProcessVolumeReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ParentTransfNode
+  - hash:
+      serializedVersion: 2
+      Hash: db5402c44c40257bc72d589ed42ae890
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSViewer
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MaterialQualityNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DecodeFloatRGHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CameraDepthFade
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SingleInputOp
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FogParamsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ProjectionParams
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: 2995dd6a3a3eadd804809476b6b2a500
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PosVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8a5e34d9a120ac21465d23f3d83602a4
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BakedGINode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RGBToHSVNode
+  - hash:
+      serializedVersion: 2
+      Hash: ab3334c35d4ad94c2477c3376c613c11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightRays2DCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: b5b83f7fcdb5099fdf43a5fea78719c5
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PropertyNode
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ConstVecShaderVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 8cfae4445c2aa8d0380a786be83cd1de
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TransformPositionNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 58ace535ce4a3894bbe9bf6d871a87f9
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FogAndAmbientColorsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 240d3520847223973dfe9092a4b56b81
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TextureArrayNode
+  - hash:
+      serializedVersion: 2
+      Hash: c350cb6473f18629210a43164ddfc50c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LerpOp
+  - hash:
+      serializedVersion: 2
+      Hash: 6ef3f83d5e9fd673d78b037c7d7893ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0d839545bd20ccf32bb31fcfa3e4cd0d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: GrabScreenPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 4efe1fac126fc6f9713b4aad9139e9a0
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: IndirectDiffuseLighting
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b11caf9a044c671c7765523e8ff48400
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FunctionOutput
+  - hash:
+      serializedVersion: 2
+      Hash: d8cd4003a70eb735382bd6c11b69020b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ToggleSwitchNode
+  - hash:
+      serializedVersion: 2
+      Hash: 77fe848a43ff1418f915312c4db59f4f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CommentaryNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Texture2MatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CoshOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: ab3807b0b235b98fc19e4bd3616251cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TitleMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 178c4966773f6069ac071969a3eb4722
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PowerNode
+  - hash:
+      serializedVersion: 2
+      Hash: 649829ad1c5d9ce7936faaf1dab2ea30
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateLocalVarsNode
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: EncodeViewNormalStereoHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: cf106b251257c4da64b88e32273802d8
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FunctionSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 5648183942e1c22d510c7a8406031fc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlyCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b28f5a7051ef1278492d1077a8f96c4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FootStep
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CosOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: ebd51abc566b3b81b74459f455e59305
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Synopsis
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimplifiedFModOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 038e51c6578281d819624eb1d3daa623
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VoronoiNode
+  - hash:
+      serializedVersion: 2
+      Hash: 60180c20824ceff92ad4aa768d278020
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RangedFloatNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCIf
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldToObjectTransfNode
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DeltaTime
+  - hash:
+      serializedVersion: 2
+      Hash: 8933253bb94c35c41d10b9dcd6157cb4
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: OutlineNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ScaleAndOffsetNode
+  - hash:
+      serializedVersion: 2
+      Hash: 0c2856b1935caaa9d0181dd5f9b5bfc1
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ShadeVertexLightsHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 111bd8a0413876bf058c8e1595990b8b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: b04100cef0b1da9b28b3aaf1fc3e9603
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightRays2D
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RadiansOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 69613d373167848a1f524e1b2e85e467
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LayeredBlendNode
+  - hash:
+      serializedVersion: 2
+      Hash: a6de16c15b7a60f2266ee4ea7a69b899
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldNormalVector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: UnityEditor
+    className: CustomShaderInspector
+  - hash:
+      serializedVersion: 2
+      Hash: 3ec3fba6ffd9b24596bc75b2a4c89f55
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BlendOpsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 3c16bfc0a0a6eb6bd727c3102eb62d90
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: HeightMapBlendNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ExpOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCPixelate
+  - hash:
+      serializedVersion: 2
+      Hash: eb4ff64d16006ece989fcb2f679c40ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Character
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SqrtOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCStub
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bc1171ac4ab5721595b876cd9fb5ce42
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TexCoordVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DesaturateOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: de66fab397d0878b44f5af7ba6170ede
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Stage
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldToCameraMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 24b27d38f1cf88cd640c8df204ea32dc
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ColorNode
+  - hash:
+      serializedVersion: 2
+      Hash: c27cb2606cab3d3673287e5ddb9952d2
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DitheringNode
+  - hash:
+      serializedVersion: 2
+      Hash: a2f5fcbffa9e95d2d6d6bb14b0ab1617
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateMultiPassMasterNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9d1667b409feca0316a1dd505af3cb34
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplatesManager
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Log2OpNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DegreesOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: b60e13b266a77fb454a5f9f60b997a18
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FunctionInput
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 28da41a6ce07b6b71ab9c8fa566b8e65
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: AppendNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BitangentVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: 0c088910d8c072f4c24621eb5febf9fc
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Compare
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: AbsOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 586923df5681fd1a1134e014db143475
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ASETextureArrayCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ViewProjectionMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 55dd8a144df2d5ab4b282f534b5dbbed
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: 
+    className: AmplifyShaderFunction
+  - hash:
+      serializedVersion: 2
+      Hash: 3b1c82196066688b8dd774439aac8df3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldReflInputsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ParentNode
+  - hash:
+      serializedVersion: 2
+      Hash: 158d9e8de68ea76a3ae413d480eb496b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SwitchNode
+  - hash:
+      serializedVersion: 2
+      Hash: 3fbb1a5ffeb0d2dc3502a3dae62a7533
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing
+    className: PostProcessingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0b010041855d7b815a026d6d0d33a5c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PiNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareLower
+  - hash:
+      serializedVersion: 2
+      Hash: ee3a82f1b5327c4487cfee20816bd138
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BillboardNode
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: UnityEngine.PostProcessing.Utilities
+    className: PostProcessingControllerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldToTangentMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 1fc55d200401cb7efac112b2a09c6132
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CustomExpressionNode
+  - hash:
+      serializedVersion: 2
+      Hash: a2bfbc31addd7bb57856f028dff37f06
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ShaderLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BreakToComponentsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareGreater
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Texture0MatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldTransformParams
+  - hash:
+      serializedVersion: 2
+      Hash: 7cc7f8154a098cce2af983e1019ad8dc
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: UnityEditor.PostProcessing
+    className: PostProcessingInspector
+  - hash:
+      serializedVersion: 2
+      Hash: c29aca3a2495df8f1c9a04f6a37ce206
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ASEPPSHelperTool
+  - hash:
+      serializedVersion: 2
+      Hash: 0568889868f6fb744b2ecba530349fde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleWheelController
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ReflectionProbeNode
+  - hash:
+      serializedVersion: 2
+      Hash: ebd51abc566b3b81b74459f455e59305
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Loading
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbd54bd6d131fd644c42f444eea224d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Vector3Node
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DeterminantOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DistanceBasedTessNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CeilOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 601aa9aecdfac5a079eb631e0a9164be
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: c2ea1785a3935769a65b73b70f153f1b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ConditionalIfNode
+  - hash:
+      serializedVersion: 2
+      Hash: 6a74d287949c19c04c526ea2bed8f717
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateMultiPassSwitchNode
+  - hash:
+      serializedVersion: 2
+      Hash: cf03dd38c0884a5c842601a87a452c5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DotProductOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 176bb94d4e97956e7b82d1208feb54a4
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FresnelNode
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 94641ea570f915178369fedb84494213
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CustomAddNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DecodeFloatRGBAHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ASEStartScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 525c3a4040d0181a65d5cef01609c28e
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateNodeParent
+  - hash:
+      serializedVersion: 2
+      Hash: 58ace535ce4a3894bbe9bf6d871a87f9
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TransformVariables
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UnityObjToClipPosHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 6daeab65abc0dc09d16a7e5f7c6ae10a
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TransformDirectionNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: HelperParentNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ProjectionMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ATanOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LogOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: InverseProjectionMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: f4c85d1154d8d447fe0ba36730d31687
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Matrix4X4Node
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 4a763497fd7ab603fadd6d9ba7ef9312
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ScreenDepthNode
+  - hash:
+      serializedVersion: 2
+      Hash: 2995dd6a3a3eadd804809476b6b2a500
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TangentVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f4c85d1154d8d447fe0ba36730d31687
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MatrixParentNode
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c822eec45bd7c5f6d7c8a2d82a6feb07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2b38634fdcb4cb71e5e1baa43f10320d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateDataParent
+  - hash:
+      serializedVersion: 2
+      Hash: 94641ea570f915178369fedb84494213
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CustomNode
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 93bd66442e629fa511f38ee301ae82f8
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WireNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ObjSpaceLightDirHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ShaderVariablesNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DdxOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: a3e52266be446e7ebe4b9cbfff3e3931
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UsePassHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 37f545a7b7617a16a7155f9b0ae4b89c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleSubtractOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: a6d2f8ce2d014d061323eb14a018d0b9
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LODFadeNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DiffuseAndSpecularFromMetallicNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCRemapNode
+  - hash:
+      serializedVersion: 2
+      Hash: 69613d373167848a1f524e1b2e85e467
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WeightedBlendNode
+  - hash:
+      serializedVersion: 2
+      Hash: 58ace535ce4a3894bbe9bf6d871a87f9
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CameraWorldClipPlanes
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SinOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Texture1MatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareLowerEqual
+  - hash:
+      serializedVersion: 2
+      Hash: bd89c02c54734bc10c39b2afb3d65590
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing
+    className: PostProcessingProfile
+  - hash:
+      serializedVersion: 2
+      Hash: cd892d8bc0b8ff5bc93b9ebfa7cb66e6
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TransformVectorOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RSqrtOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FWidthOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: abce0d34a4fafa75eded8ee9dd65af5d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: NoiseGeneratorNode
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TauNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: StepOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: EncodeFloatRGBAHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ZBufferParams
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ColorVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PortLegendInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DistanceOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 96e85d4cbddfc0cfe0b4f4f79ad52713
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ScaleNode
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleMaxOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ConstantShaderVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ObjectToWorldTransfNode
+  - hash:
+      serializedVersion: 2
+      Hash: 61cd387e6bd4a2d358eee8c4abf76986
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnDataScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SinhOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: a31b51dcab4fef73e5839da6aceb45f6
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ReordenatorNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LightColorNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UnpackScaleNormalNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ATan2OpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: 
+    className: LightRays2DEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TexCoord1VertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ReflectOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ObjSpaceViewDirHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 601aa9aecdfac5a079eb631e0a9164be
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateFragmentDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: d93a510c6e1f731bee4d471c0f6b5bac
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VirtualTextureObject
+  - hash:
+      serializedVersion: 2
+      Hash: 3b1c82196066688b8dd774439aac8df3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ColorInputsNode
+  - hash:
+      serializedVersion: 2
+      Hash: f2f6cc40a607ce7a85cb1d89ea3c3f6d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PosterizeNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SaturateNode
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 63ec64979ddb13e6f161ec4071a77a13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing.Utilities
+    className: FocusPuller
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 498156884fbd3f7c9133661fb3b792d5
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: NormalizeNode
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldToObjectMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CameraToWorldMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TangentSignVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: df060b499df9c47e2465bc333eaaa56c
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SamplerStateNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SignOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FractNode
+  - hash:
+      serializedVersion: 2
+      Hash: a13246f25591b03a837d3aea08a8a335
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TexturePropertyNode
+  - hash:
+      serializedVersion: 2
+      Hash: 6ba6efe18a861e7419bc528dd8e67619
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StageUI
+  - hash:
+      serializedVersion: 2
+      Hash: e20122189da83e88c14d242e063442d1
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Vector2Node
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: cfc4a1f5ce255a3a8304b4bad5f36150
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FunctionSubtitle
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TransposeMVMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 3b1c82196066688b8dd774439aac8df3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldPosInputsNode
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: About
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleAddOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VertexBinormalNode
+  - hash:
+      serializedVersion: 2
+      Hash: e8d5d22cc78e9ef8080fe1b1696e2f73
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateShaderPropertyNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ASinOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 1040e7bb49dced533caa540a7e51393b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ComputeScreenPosHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 69613d373167848a1f524e1b2e85e467
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SummedBlendNode
+  - hash:
+      serializedVersion: 2
+      Hash: a0dd99fca0399df32bacfa03a3d1c4a0
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: 
+    className: TextureArrayCreatorAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4efe1fac126fc6f9713b4aad9139e9a0
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: IndirectSpecularLight
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TransposeOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FmodOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FloorOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: 
+    className: CelCustomEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareGreaterEqual
+  - hash:
+      serializedVersion: 2
+      Hash: 08d8700912fa5ccaee7549f64295aa25
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DynamicAppendNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SmoothstepOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: NormalVertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 3b1c82196066688b8dd774439aac8df3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SurfaceShaderINParentNode
+  - hash:
+      serializedVersion: 2
+      Hash: fa14776924dfc9f4918ad383c8445af6
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: StaticSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: GradientSampleNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldSpaceCameraPos
+  - hash:
+      serializedVersion: 2
+      Hash: b78b89191b4b6cfc72d3941f66ae3cd8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ViewMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TimeNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VertexTangentNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: AmplifyShaderFunctionEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VertexDataNode
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RotatorNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UnityObjToViewPosHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 317ea2aeb66225cfbe80503eb9ab8f1e
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FunctionNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TanOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RelayNode
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5fa1753170123477ee8396d02fd3b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawner
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: InverseViewProjectionMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BlendIndicesNode
+  - hash:
+      serializedVersion: 2
+      Hash: 04395545688220abeaa946e0c31b5bfd
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ParentGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: ccd32b256585504ee569c4593e075e4d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LogNode
+  - hash:
+      serializedVersion: 2
+      Hash: e8bcf66dd852b21d99e5ba22665efdf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Zombie
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DebugConsoleWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 0f84f7562fc09e9606cf69c66342693d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ScreenPosInputsNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LengthOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleRemainderNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DontDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 45dd9d9d8095f14b41375b192058d24b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing.Utilities
+    className: PostProcessingController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: aa70d92ff0fa74f7c5abb1ed7062f969
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: GradientNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ClipNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: ce87ea45fed88632ea270920ada246f2
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RegisterLocalVarNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8c8718f171471f17689dbb2c3ac38f94
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: HDEmissionNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ACosOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DecodeViewNormalStereoHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: f4c85d1154d8d447fe0ba36730d31687
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Matrix3X3Node
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VertexIdVariableNode
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 37ba181338e4b256ba22ed1e675ac430
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: GlobalArrayNode
+  - hash:
+      serializedVersion: 2
+      Hash: ffac2d27fde9f88089e823f51c894a9d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: OutputNode
+  - hash:
+      serializedVersion: 2
+      Hash: a5239fe8ad8947398edb4cc70403f9d0
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SwizzleNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MVMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: eea0b65eb05b687ebc0da04590d25c79
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CustomStandardSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CosTime
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ObjectToWorldMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DynamicTypeNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PosFromTransformMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 26a3d13744a885bebfca87174eaa4a3a
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: AmplifyShaderEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RoundOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleContrastOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TruncOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TessellationParentNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: PannerNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleMinOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: e7a7e723c473cb29b9f9eb8329d6038a
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: GammaToLinearNode
+  - hash:
+      serializedVersion: 2
+      Hash: e7a7e723c473cb29b9f9eb8329d6038a
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LinearToGammaNode
+  - hash:
+      serializedVersion: 2
+      Hash: 08a2f71bcd89ae00b8f1fb5c961ed204
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ParallaxMappingNode
+  - hash:
+      serializedVersion: 2
+      Hash: 95085ef0640b58fa690c16d2f500fa99
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldNormalInputsNode
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DecodeLightmapHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: HSVToRGBNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DecodeDepthNormalNode
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 80cdea91dd08d79dfb821c692b3e929a
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VectorFromMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UnityProjectorMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 550fd65c19288a2cfcc8c4ee55b7afba
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Vector4Node
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: UnityEditor.PostProcessing
+    className: PostProcessingBehaviourEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 9eb519c7276c1df52a53b1d2f326768a
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: KeywordSwitchNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SwitchByFaceNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: NegateNode
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: d6298f4fc3d09c029af5737c8643a358
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: IntNode
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b15ca8507700ebac8fceae981b15c2aa
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BlendNormalsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: InstanceIdNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MVPMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 740b5b9f4da396a1fd9204c0b1880b81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: aae8cd37ff3b34ee362abf27757bbb36
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MatrixFromVectors
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LuminanceHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareWithRange
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CrossProductOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SinTimeNode
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: BlendWeightsNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ClampOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareEqual
+  - hash:
+      serializedVersion: 2
+      Hash: c254d50a29d3d041ba429fa30c27ccb3
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldSpaceLightDirHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-Editor.dll
+    namespaceName: UnityEngine.PostProcessing.Utilities
+    className: FocusPullerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a613fb7b83fb638d68dd33b1a12fe6e4
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ViewDirInputsCoordNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: EdgeLengthTessNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldSpaceViewDirHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 69613d373167848a1f524e1b2e85e467
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WeightedAvgNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UnityProjectorClipMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SignalGeneratorNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DoCreateFunction
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LightAttenuation
+  - hash:
+      serializedVersion: 2
+      Hash: f14babff2007fbeea7ababfe0b2384a7
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MasterNode
+  - hash:
+      serializedVersion: 2
+      Hash: d24583021982d5b3c4a662394ee21978
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DepthFade
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Texture3MatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldSpaceLightPos
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: EdgeLengthCullTessNode
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 751ae4c70e721fa3601cf473bfd75594
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TextureTransformNode
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UnityScaleMatrix
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ScreenParams
+  - hash:
+      serializedVersion: 2
+      Hash: 7fcc6ef3d6667bd602a3d21d664c8dfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCCompareNotEqual
+  - hash:
+      serializedVersion: 2
+      Hash: c1d89bcdeeaca004b081e45729f2e83d
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VertexToFragmentNode
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 24bcd1a040167e820d763a7c1d26b952
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RotateAboutAxisNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9f2efe94673a8e92e068ee5fe2d6cd0b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateCodeSnippetBase
+  - hash:
+      serializedVersion: 2
+      Hash: 5dcdede5b08c10b5faaa479d6a685ee9
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: UndoParentNode
+  - hash:
+      serializedVersion: 2
+      Hash: 58ace535ce4a3894bbe9bf6d871a87f9
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: CameraProjectionNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: InverseTranspMVMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 0c357b87ea95448324b01d34701ec531
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 2a49a519d1dc4c0aa8492193c2b5eeb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Gun
+  - hash:
+      serializedVersion: 2
+      Hash: 944577e42fccdb1fc4167941767adb9c
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ParallaxOcclusionMappingNode
+  - hash:
+      serializedVersion: 2
+      Hash: 38125ec38b3ddc0b1ecf100219aab72f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VariablePortTypeOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: EncodeFloatRGHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ComputeGrabScreenPosHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: d1e710ce013556a1a2540bc6f0234597
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: d127d79b464463af24dfab7d3a9f993f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SamplerNode
+  - hash:
+      serializedVersion: 2
+      Hash: 716c63399d99745a5beeb655af564353
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FallbackPickerHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 0ce175ffe4bf623df1420d63533aa627
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimplexNoiseNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Exp2OpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: InverseViewMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: e022bc1422e1977c68745f0c1744f276
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dog
+  - hash:
+      serializedVersion: 2
+      Hash: 82580272040f29c2bc9acc47d12bd2ae
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: OrthoParams
+  - hash:
+      serializedVersion: 2
+      Hash: 202f20c4b4dcc3b955337d32857942d0
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ScreenColorNode
+  - hash:
+      serializedVersion: 2
+      Hash: 06773f23010b69c82e51b7149ce3e918
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LuminanceNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: RefractOpVec
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: OneMinusNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleTimeNode
+  - hash:
+      serializedVersion: 2
+      Hash: e363d9a48b1de031b8c31aa23c3c41a4
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateMultiPass
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: Log10OpNode
+  - hash:
+      serializedVersion: 2
+      Hash: a6de16c15b7a60f2266ee4ea7a69b899
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: WorldReflectionVector
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: FaceVariableNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: DdyOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: InverseOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9c2fad0544f8d30e7f8b5fd3165ef194
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: MMatrixNode
+  - hash:
+      serializedVersion: 2
+      Hash: 250f0e2cdad8f8a11403477a25f9afd8
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ObjectScaleNode
+  - hash:
+      serializedVersion: 2
+      Hash: 4fb01af280dc28da5b64587a9a7ba4f0
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TemplateMasterNode
+  - hash:
+      serializedVersion: 2
+      Hash: 4544acf350766a488b3329f7e2723f1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Credits
+  - hash:
+      serializedVersion: 2
+      Hash: e786f8959d91a54b1826577caf35a6ee
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TanhOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 886e1944651012e04cc0e6a75f6b1e2b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: LocalVertexPosNode
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 1908856e9cc9e603b96051f05b03fb79
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TexelSizeNode
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleMultiplyOpNode
+  - hash:
+      serializedVersion: 2
+      Hash: d99c1b8745476969b7d9ae9e6de5d56b
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ParallaxOffsetHlpNode
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: EncodeDepthNormalNode
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 21d186531b9e40c26ac18c437d5eec31
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: ColorSpaceDouble
+  - hash:
+      serializedVersion: 2
+      Hash: 33bc1352caabc8906867bae349928181
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: VertexColorNode
+  - hash:
+      serializedVersion: 2
+      Hash: 30cdaa699e63c554a4cbe0fb42f4a498
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SurfaceDepthNode
+  - hash:
+      serializedVersion: 2
+      Hash: cc376413d0cbcdd9a06768f1c8261678
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: TFHCFlipBookUVAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 8585c8ce89279e2549e015454343918f
+    assemblyName: AmplifyShaderEditor.dll
+    namespaceName: AmplifyShaderEditor
+    className: SimpleDivideOpNode
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/TitleMenu.unity
+  - Assets/Scenes/Synopsis.unity
+  - Assets/Scenes/Stage1.unity
+  - Assets/Scenes/Stage.unity
+  - Assets/Scenes/DemoScene.unity
+  - Assets/Scenes/Loading.unity
+  - Assets/Scenes/Ending.unity
+  - Assets/Scenes/Credits.unity
+  playerPath: C:/Users/Mr_K/Desktop/GameJam/build/3182/HitTheBlue.exe

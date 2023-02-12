@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c964c2c22fb9fa4caf4ddc72d8a0592, type: 3}
+  m_Name: Stage1pawnData
+  m_EditorClassIdentifier: 
+  itemSpawnInterval:
+    min: 10
+    max: 15
+  itemDataList:
+  - prefab: {fileID: 7400903605139440379, guid: c1d19aa463d62df46a57809961c78dc3, type: 3}
+    spawnChance: 0.75
+  - prefab: {fileID: 1819894318623478826, guid: c48c8ce68d7f6f04da0800af1f5f716f, type: 3}
+    spawnChance: 0.75
+  monsterSpawnInterval:
+    min: 1
+    max: 5
+  monsterDataList:
+  - prefab: {fileID: 5105677054417086363, guid: b34462c15b806494eaa6b920e040e359, type: 3}
+    maxSpawnCount: -1
+    spawnChance: 0.5
+  - prefab: {fileID: 8340257459513008865, guid: c03ca9ab434a7b544b8460618f10198a, type: 3}
+    maxSpawnCount: -1
+    spawnChance: 0.3
+  - prefab: {fileID: 8511923237976362870, guid: a271564818e3d1e41ab0156c084ecb23, type: 3}
+    maxSpawnCount: -1
+    spawnChance: 0.1
